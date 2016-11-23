@@ -1,0 +1,15 @@
+A bit of information on the classes:
+
+Warrior: A warrior specializes in melee weapons, both two handed
+weapons and one handed weapons.  They also can also gain skill
+with shields. Their primary attribute is Strength.
+
+Ranger: A ranger dissects their enemies with a bow and arrow.
+They also can weild daggers for use in deadly sneak attacks and
+brutal hand-to-hand combat.  Their primary attribute is Agility.
+
+Mage: A mage weilds the power of the elements to reign destruction
+on their foes.  They use raw magic or that channeled through a wand
+or stave.  Their primary attribute is Magicka.
+
+Now, which class are you?
