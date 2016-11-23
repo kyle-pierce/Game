@@ -1,4 +1,3 @@
-// Kyle 
 public class Armor extends Item {
    private int armorRating;
    private String slot;
@@ -7,5 +6,9 @@ public class Armor extends Item {
       super(name);
       this.armorRating = armorRating;
       this.slot = slot;
+   }
+   
+   public String getSlot() {
+      return slot;
    }
 }  
