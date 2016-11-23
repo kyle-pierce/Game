@@ -1,3 +1,4 @@
+// Kyle 
 public class Armor extends Item {
    private int armorRating;
    private String slot;
