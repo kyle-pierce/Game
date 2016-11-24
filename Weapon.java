@@ -1,14 +1,14 @@
 public class Weapon extends Item {
    private int damage;
-   private String hand;
+   private String slot;
    
-   public Weapon(String name, int damage, String hand) {
+   public Weapon(String name, int damage, String slot) {
       super(name);
       this.damage = damage;
-      this.hand = hand;
+      this.slot = slot;
    }
    
-   public String getHand() {
-      return hand;
+   public String getSlot() {
+      return slot;
    }
 }
