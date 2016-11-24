@@ -24,7 +24,6 @@ public class Player {
    
    private  void makeRole() {
       System.out.println("Welcome, " + name + ". Which class are you? (Type 'info' for more information)");
-      System.out.println("   Warrior   Ranger   Mage");
       String input = console.nextLine().toLowerCase().trim();
       while (!(input.contains("warrior") || input.contains("ranger") || input.contains("mage"))) {  
          if (input.contains("info")) {
@@ -33,14 +32,14 @@ public class Player {
                while (text.hasNextLine()) {
                   System.out.println(text.nextLine());
                }
-               input = console.next();
+               System.out.println();
+               input = console.next().toLowerCase().trim();
             } catch (FileNotFoundException e) {
                System.out.println("Well...too bad!");
             }
          }
          else {
             System.out.println("Invalid class. Please choose a valid class. (Or type 'info')");
-            System.out.println("   Warrior   Ranger   Mage");
             input = console.next().toLowerCase().trim();
          }
       }
