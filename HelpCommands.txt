@@ -1,0 +1,6 @@
+Acceptable Commands:
+
+1) 'show inventory' - displays all items and their quantitity in your inventory
+2) 'show equipment' - displays all your equipped items
+3) 'equip (item)' - moves the item from inventory to equipment
+3) 'end' - terminates game
