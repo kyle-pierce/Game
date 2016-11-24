@@ -4,6 +4,7 @@ public class Item implements Comparable<Item>{
 
    public Item(String name) {
       this.name = name;
+      slot = "";
    }
    
    public String toString() {
