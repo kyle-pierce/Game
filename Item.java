@@ -1,5 +1,5 @@
 public class Item implements Comparable<Item>{
-   private String name;
+   public String name;
    private String slot;
 
    public Item(String name) {
@@ -17,5 +17,10 @@ public class Item implements Comparable<Item>{
    
    public String getSlot() {
       return slot;
+   }
+   
+   public void display() {
+      System.out.println("name: " + name);
+      System.out.println();
    }
 }
