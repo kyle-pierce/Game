@@ -48,4 +48,13 @@ public class Equipment {
          System.out.println("Not happening.");
       }
    }
+   
+   public Item checkFor(String itemName) {
+      for (String s : map.keySet()) {
+         if (map.get(s) != null && map.get(s).toString().toLowerCase().equals(itemName)) {
+            return map.get(s);
+         }
+      }
+      return null;
+   }
 }
