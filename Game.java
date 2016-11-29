@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class Game {
-   private static String[] commands = {"show inventory","show equipment", "equip", "help", "end"};
+   private static String[] commands = {"show inventory","show equipment", "equip", "help", "show", "end"};
    private static Scanner console = new Scanner(System.in);
    private static Player currentPlayer;
 
@@ -42,6 +42,8 @@ public class Game {
             System.out.println(text.nextLine());
          }
          System.out.println();
+      } else if (command.startsWith("show")) {
+         currentPlayer.printItem(command.substring(4).trim());
       }
    }
 }
