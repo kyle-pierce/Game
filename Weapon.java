@@ -11,4 +11,11 @@ public class Weapon extends Item {
    public String getSlot() {
       return slot;
    }
+   
+   public void display() {
+      System.out.println("name: " + super.name);
+      System.out.println("damage: " + damage);
+      System.out.println("slot: " + slot);
+      System.out.println();
+   }
 }
